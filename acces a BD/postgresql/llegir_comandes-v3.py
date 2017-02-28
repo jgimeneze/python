@@ -37,7 +37,7 @@ sortir = False
 while sortir == False:	
 	
 	os.system('clear')
-	print "OPCIONS \n 1- Llegir taula 'pedidos': \n 0- Sortir \n"
+	print "OPCIONS \n 1- Llegir taules: \n 0- Sortir \n"
 
 	opcio = raw_input('Escull una opció [0-1]: ')
 	
@@ -59,7 +59,9 @@ while sortir == False:
 	elif opcio == 1: 
 		
 		try:			
-				cur.execute("SELECT * FROM pedidos");
+				nombretabla = raw_input("Introdueix el nom de la taula: ")
+				sql = "SELECT * FROM " + nombretabla
+				cur.execute(sql);
 				rows = cur.fetchall()
 				
 				os.system('clear')
