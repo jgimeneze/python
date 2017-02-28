@@ -70,7 +70,7 @@ while sortir == False:
 
 				for row in rows:
 				   #print row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7]
-				   print(" {:^10}   {}   {:^6} {:^5} {:^5} {:^10} {:^6} {:^10} ".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
+				   print(" {:^12}    {}    {:^6}  {:^5}  {:^5}  {:^10}  {:^6}  {:^10} ".format(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7]))
 				
 				tecla = raw_input('Prem una tecla per continuar')
 		
