@@ -18,6 +18,8 @@ if (aleatori==2):
 if (aleatori==3):
 	jugador2="TI"
 
+print "La meva jugada és:" , jugador2
+
 # Empat (3 combinacions)
 if (jugador1==jugador2):
 	print "Empat"
