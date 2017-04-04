@@ -7,8 +7,7 @@
 from random import randint
 
 #Jugador humà
-#jugador1=raw_input("Possi la jugada (PE/PA/TI):")
-jugador1="PE"
+jugador1=raw_input("Possi la jugada (PE/PA/TI):")
 
 #Jugador machine
 aleatori=randint(1,3)
@@ -18,7 +17,6 @@ if (aleatori==2):
 	jugador2="PA"
 if (aleatori==3):
 	jugador2="TI"
-
 
 # Empat (3 combinacions)
 if (jugador1==jugador2):
@@ -32,4 +30,3 @@ else: # 6 combinacions
 		print "Tu guanyes!!!!!"
 	else: # Guanya jugador2 (3 combinacions)
 		print "Ets un .... has perdut !!!!"
-
