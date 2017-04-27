@@ -8,6 +8,11 @@ def mensaje_bienvenida(nombre, apellido):
 	nombre="CAMBIO"
 	apellido="CAMBIAZO"
 	
+	print "*****************************"
+	print "          BIENVENIDO         "
+	print "       	", nombre , "," , apellido
+	print "*****************************"	
+	
 #############################################################################	
 
 nombre_invitado="PEPE"
