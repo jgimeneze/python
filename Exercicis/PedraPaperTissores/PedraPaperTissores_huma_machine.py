@@ -7,7 +7,7 @@
 from random import randint
 
 #Jugador humà
-jugador1=raw_input("Possi la jugada (PE/PA/TI): ")
+jugador1=raw_input("SR Possi la jugada (PE/PA/TI): ")
 
 #Jugador machine
 aleatori=randint(1,3)
