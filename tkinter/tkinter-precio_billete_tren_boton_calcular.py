@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# Extraído de: https://python-para-impacientes.blogspot.com/2016/02/variables-de-control-en-tkinter.html?m=1
 # Requiere tkinter instalado:   # dnf install python3-tkinter
 
 
